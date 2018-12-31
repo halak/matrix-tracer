@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Matrix Calculation Tracer</title>
+    <meta name="description" content="Matrix calculation tracer">
+    <link href="./style.css" rel="stylesheet">
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        showProcessingMessages: false,
+
+        CommonHTML: { linebreaks: { automatic: true }, scale: 100 },
+               SVG: { linebreaks: { automatic: true }, scale: 100 },
+
+        elements: ['container'],
+        showMathMenu: false,
+        "fast-preview": { disabled: true }
+      });
+    </script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=AM_SVG,Safe"></script>
+    <script defer src="./math.min.js"></script>
+    <script defer src="./matrix.js"></script>
+    <script defer src="./main.js"></script>
+  <body>
+    <main>
+      <div id="container">
+      </div>
+    </main>
+    <footer>
+      <span>Author: <a href="https://github.com/halak">Halak</a></span>
+      <span><a href="http://mathjs.org/">math.js</a></span>
+      <span>
+        <a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" /></a>
+      </span>
+    </footer>
+  </body>
+</html>

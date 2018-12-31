@@ -1,0 +1,31 @@
+div#container {
+    margin: 1em 1em;
+    padding: 0.5em;
+    border: 1px solid #333333;
+    box-shadow: 0.1em 0.1em 0.25em rgba(0,0,0,0.25);
+}
+
+div.line {
+    margin: 0;
+    padding: 1em 0.5em;
+    border-bottom: 1px dotted black;
+}
+
+div.line:last-child {
+    border-bottom: none;
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    margin: auto auto 0em 0;
+}
+
+footer span {
+    display: block;
+    margin: 0.5em;
+}
+
+footer a {
+    color: black;
+}
