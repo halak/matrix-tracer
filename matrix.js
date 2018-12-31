@@ -3,7 +3,8 @@ matrix = (function () {
         return [
             translate('x', 'y', 'z'),
             rotateZ('pi'),
-            scale('s', 's', 's')
+            scale(2),
+            scale(1.5),
         ]
     }
 
